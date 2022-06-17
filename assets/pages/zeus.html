@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../SASS/main.css">
+
+    <title>ZEUS :: the divine weater app</title>
+</head>
+
+<body>
+
+    <main>
+        <section class="container02">
+            <h1 id="aktuelleStadt">Deine Stadt</h1>
+            <div class="aktuellLogo"><img src="../img/icons/sonnig.png"></div>
+            <h2 class="aktuelleTemp tempGrad" id="aktuelleTemp">14</h2>
+            <div class="aktuellHTT">
+                <div class="aktuelleTT tempGrad" id="aktuelleTief">8</div>
+                <div class="aktuelleHT tempGrad" id="aktuelleHoch">20</div>
+            </div>
+        </section>
+
+        <section class="container01">
+            <article>
+                <img src="../img/zeus-logo.png" alt="ZEUS">
+
+            </article>
+        </section>
+
+
+        <!-- 48 Stunden Prognose Anfang ------------------------------------------- -->
+        <section class="container03">
+            <div class="tagesPrognose">48 Stunden Prognose</div>
+            <article class="wetter48h">
+                <div class="StundenWetter">
+                    <div class="Stunde0" id="StundenWetterStunde_0">Jetzt</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_0"><img src="../img/icons/gewitter.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_0">0</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_1">1</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_1"><img src="../img/icons/heiss.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_1">1</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_2">2</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_2"><img src="../img/icons/heiter-bis-wolkig.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_2">2</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_3">3</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_3"><img src="../img/icons/kalt.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_3">3</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_4">4</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_4"><img src="../img/icons/regen.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_4">4</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_5">5</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_5"><img src="../img/icons/regenbogen.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_5">5</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_6">6</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_6"><img src="../img/icons/schnee-regen.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_6">6</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_7">7</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_7"><img src="../img/icons/schnee.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_7">7</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_8">8</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_8"><img src="../img/icons/sonne-regen.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_5">8</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_9">9</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_9"><img src="../img/icons/sonnig.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_9">9</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_10">10</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_10"><img src="../img/icons/sturm.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_10">10</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_11">11</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_0"><img src="../img/icons/gewitter.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_11">11</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_12">12</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_1"><img src="../img/icons/heiss.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_12">12</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_13">13</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_2"><img src="../img/icons/heiter-bis-wolkig.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_13">13</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_14">14</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_3"><img src="../img/icons/kalt.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_14">14</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_15">15</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_4"><img src="../img/icons/regen.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_15">15</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_16">16</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_5"><img src="../img/icons/regenbogen.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_16">16</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_17">17</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_6"><img src="../img/icons/schnee-regen.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_17">17</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_18">18</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_7"><img src="../img/icons/schnee.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_18">18</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_19">19</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_8"><img src="../img/icons/sonne-regen.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_19">19</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_20">20</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_9"><img src="../img/icons/sonnig.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_20">20</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_21">21</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_10"><img src="../img/icons/sturm.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_21">21</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_22">22</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_0"><img src="../img/icons/gewitter.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_22">22</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_23">23</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_1"><img src="../img/icons/heiss.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_23">23</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_24">24</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_2"><img src="../img/icons/heiter-bis-wolkig.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_24">24</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_25">01</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_3"><img src="../img/icons/kalt.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_25">25</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_26">02</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_4"><img src="../img/icons/regen.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_26">26</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_27">03</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_5"><img src="../img/icons/regenbogen.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_27">27</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_28">04</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_6"><img src="../img/icons/schnee-regen.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_28">38</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_29">05</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_7"><img src="../img/icons/schnee.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_29">29</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_30">06</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_8"><img src="../img/icons/sonne-regen.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_30">30</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_31">07</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_9"><img src="../img/icons/sonnig.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_31">31</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_32">08</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_10"><img src="../img/icons/sturm.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_32">32</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_33">09</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_0"><img src="../img/icons/gewitter.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_33">33</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_34">10</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_1"><img src="../img/icons/heiss.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_34">34</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_35">11</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_2"><img src="../img/icons/heiter-bis-wolkig.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_35">35</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_36">12</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_3"><img src="../img/icons/kalt.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_36">36</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_37">13</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_4"><img src="../img/icons/regen.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_37">37</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_38">14</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_5"><img src="../img/icons/regenbogen.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_38">38</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_39">15</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_6"><img src="../img/icons/schnee-regen.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_39">39</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_40">16</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_7"><img src="../img/icons/schnee.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_40">40</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_41">17</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_8"><img src="../img/icons/sonne-regen.png">
+                    </div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_41">41</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_42">18</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_9"><img src="../img/icons/sonnig.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_42">42</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_43">19</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_10"><img src="../img/icons/sturm.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_43">43</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_44">20</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_10"><img src="../img/icons/sturm.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_44">44</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_45">21</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_10"><img src="../img/icons/sturm.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_45">45</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_46">22</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_10"><img src="../img/icons/sturm.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_46">46</div>
+                </div>
+                <div class="StundenWetter">
+                    <div class="Stunde" id="StundenWetterStunde_47">23</div>
+                    <div class="StundenWetterImg" id="StundenWetterImg_10"><img src="../img/icons/sturm.png"></div>
+                    <div class="StundenWetterTemp tempGrad" id="StundenWetterTemp_47">47</div>
+                </div>
+
+            </article>
+
+        </section>
+        <!-- 48 Stunden Prognose Ende ------------------------------------------- -->
+        <section class="container04">
+
+            <article class="wetter7t">
+                <div class="einTag">
+                    <div class="tagTag"></div>
+                    <div class="tagLogo"></div>
+                    <div class="tagTief"><span class="klein">Tief</span></div>
+                    <div class="tagHoch"><span class="klein">Hoch</span></div>
+                </div>
+
+                <div class="einTag">
+                    <div class="tagTag" id="tagTag0">Heute</div>
+                    <div class="tagLogo" id="tagLogo0"><img src="../img/icons/sonnig.png"></div>
+                    <div class="tagTief tempGrad" id="tagTief0">3</div>
+                    <div class="tagHoch tempGrad" id="tagHoch0">10</div>
+                </div>
+
+                <div class="einTag">
+                    <div class="tagTag" id="tagTag1">Montag</div>
+                    <div class="tagLogo" id="tagLogo1"><img src="../img/icons/heiter-bis-wolkig.png"></div>
+                    <div class="tagTief tempGrad" id="tagTief1">3</div>
+                    <div class="tagHoch tempGrad" id="tagHoch1">10</div>
+                </div>
+
+                <div class="einTag">
+                    <div class="tagTag" id="tagTag2">Dienstag</div>
+                    <div class="tagLogo" id="tagLogo2"><img src="../img/icons/sonne-regen.png"></div>
+                    <div class="tagTief tempGrad" id="tagTief2">3</div>
+                    <div class="tagHoch tempGrad" id="tagHoch2">10</div>
+                </div>
+
+                <div class="einTag">
+                    <div class="tagTag" id="tagTag3">Mittwoch</div>
+                    <div class="tagLogo" id="tagLogo3"><img src="../img/icons/wolkig.png"></div>
+                    <div class="tagTief tempGrad" id="tagTief3">3</div>
+                    <div class="tagHoch tempGrad" id="tagHoch3">10</div>
+                </div>
+
+                <div class="einTag">
+                    <div class="tagTag" id="tagTag4">Donnerstag</div>
+                    <div class="tagLogo" id="tagLogo4"><img src="../img/icons/gewitter.png"></div>
+                    <div class="tagTief tempGrad" id="tagTief4">3</div>
+                    <div class="tagHoch tempGrad" id="tagHoch4">10</div>
+                </div>
+
+                <div class="einTag">
+                    <div class="tagTag" id="tagTag5">Freitag</div>
+                    <div class="tagLogo" id="tagLogo5"><img src="../img/icons/heiter-bis-wolkig.png"></div>
+                    <div class="tagTief tempGrad" id="tagTief5">3</div>
+                    <div class="tagHoch tempGrad" id="tagHoch5">10</div>
+                </div>
+
+                <div class="einTag">
+                    <div class="tagTag" id="tagTag6">Samstag</div>
+                    <div class="tagLogo" id="tagLogo6"><img src="../img/icons/regen.png"></div>
+                    <div class="tagTief tempGrad" id="tagTief6">3</div>
+                    <div class="tagHoch tempGrad" id="tagHoch6">10</div>
+                </div>
+
+                <div class="einTag">
+                    <div class="tagTag" id="tagTag7">Sonntag</div>
+                    <div class="tagLogo" id="tagLogo7"><img src="../img/icons/sonnig.png"></div>
+                    <div class="tagTief tempGrad" id="tagTief7">3</div>
+                    <div class="tagHoch tempGrad" id="tagHoch7">10</div>
+                </div>
+            </article>
+        </section>
+        <!-- 7 Tage Prognose Ende ----------------------------------------------- -->
+        <section class="container05">
+            <article class="details">
+                <div class="dBox">UV</div>
+                <div class="dBox">Sonnen unter aufgang</div>
+                <div class="dBox">Wind</div>
+                <div class="dBox">Regenmenge</div>
+                <div class="dBox">gefühlte Temperatur</div>
+                <div class="dBox">Feuchtigkeit</div>
+                <div class="dBox">Sichtweite</div>
+                <div class="dBox">Luftdruck</div>
+            </article>
+        </section>
+
+        <!-- <footer class="container06">
+            <div>
+                <p>&copy; 2022 by The Sunshine People</p>
+                <p>Created with Love <a href="https://www.youtube.com/watch?v=Bbiqy2TOwBw" target="_blank"><i
+                            class="fa-solid fa-heart"></i></a></p>
+                </p>
+                <p><i class="fa-solid fa-carrot"></i> 1oo% vegan</p>
+            </div>
+        </footer> -->
+    </main>
+    <script src="../js/main.js"></script>
+    <script src="https://kit.fontawesome.com/8c93758a75.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
